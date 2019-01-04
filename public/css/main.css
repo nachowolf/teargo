@@ -52,6 +52,7 @@ ul{
     color:black;
     font-weight:bold;
     text-shadow:2px 2px white;
+    font-size:40px;
 }
 
 #startedBtn{
@@ -93,6 +94,7 @@ flex-direction: row;
     margin-left:80px;
     text-align:center;
     border-radius:20px;
+    background-color: #3aa3ff;
 }
 
 #item-image img{
@@ -103,7 +105,7 @@ flex-direction: row;
 }
 #item-details{
     padding-top:10px;
-
+    position: relative;
     width:100%;
     background-color:white;
     height:250px;
@@ -112,6 +114,53 @@ flex-direction: row;
 
 #item-details b{
     color:red;
+}
+
+form{
+    text-align: center;
+}
+
+#home-start{
+    margin:auto;
+    margin-top:50px;
+    padding:20px;
+    border:solid;
+    width:50vw;
+    background-color:#3aa3ff;
+    border-radius:10px;
+}
+
+input[type='submit']{
+    margin:auto;
+    margin-top:10px;
+    display: block;
+    border-radius:20px;
+    width:10vw;
+    height:5vh;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+input[type='email']{
+    margin:auto;
+    margin-top:10px;
+    display: block;
+    border-radius:10px;
+    text-align: center;
+    width:20vw;
+    height:5vh;
+}
+
+#item-details button{
+    width:10vw;
+    height:5vh;
+    border-radius:20px;
+    position: absolute;
+    bottom: 5%;
+    left:30%;
+    margin:auto;
+    background-color: aqua;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
